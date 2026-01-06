@@ -1,0 +1,166 @@
+/* ================================
+   GLOBAL STYLES
+================================ */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h3, h4, h5 {
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+/* ================================
+   CARD (LOGIN / REGISTER)
+================================ */
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card h3 {
+  color: #343a40;
+}
+
+/* ================================
+   INPUTS & FORMS
+================================ */
+input.form-control,
+textarea.form-control,
+select.form-select {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+textarea {
+  resize: none;
+}
+
+/* ================================
+   BUTTONS
+================================ */
+button {
+  border-radius: 8px;
+}
+
+.btn-success {
+  background-color: #198754;
+}
+
+.btn-warning {
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #d39e00;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+/* ================================
+   NAVBAR
+================================ */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ================================
+   DASHBOARD LAYOUT
+================================ */
+#formTitle {
+  margin-bottom: 1rem;
+}
+
+#taskList {
+  margin-top: 1rem;
+}
+
+/* ================================
+   TASK LIST ITEM
+================================ */
+.list-group-item {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e9ecef;
+  padding: 15px;
+}
+
+.list-group-item:hover {
+  background-color: #fdfdfd;
+}
+
+/* ================================
+   TASK BADGES
+================================ */
+.badge {
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+.badge.bg-info {
+  background-color: #0dcaf0 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* ================================
+   TASK ACTION BUTTONS
+================================ */
+.list-group-item button {
+  min-width: 65px;
+}
+
+.list-group-item .btn-sm {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+/* ================================
+   MESSAGE / ERROR TEXT
+================================ */
+#message {
+  font-size: 0.9rem;
+}
+
+/* ================================
+   RESPONSIVE FIXES
+================================ */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .list-group-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list-group-item div:last-child {
+    margin-top: 10px;
+  }
+}
