@@ -1,14 +1,49 @@
-# Node
+# =========================
+# NODE / BACKEND
+# =========================
 node_modules/
 
 # Environment variables
 .env
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# =========================
+# DATABASE
+# =========================
+*.sql
+*.sqlite
+*.db
+.env
 
-# OS files
+
+# =========================
+# LOG FILES
+# =========================
+logs/
+*.log
+
+# =========================
+# OS FILES
+# =========================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# =========================
+# EDITORS / IDEs
+# =========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# BUILD / CACHE
+# =========================
+dist/
+build/
+.cache/
+
+# =========================
+# FRONTEND
+# =========================
+coverage/
